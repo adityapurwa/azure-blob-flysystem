@@ -1,0 +1,30 @@
+{
+  "name": "adityapurwa/azure-blob-flysystem",
+  "description": "Adapter for Azure Blob Storage for Flysystem",
+  "type": "library",
+  "require": {
+    "league/flysystem": "^1.0",
+    "microsoft/azure-storage-blob": "^1.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aditya Purwa",
+      "email": "adityapurwa@windowslive.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "AdityaPurwa\\AzureBlobFlysystem\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  }
+}
